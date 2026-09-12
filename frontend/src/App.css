@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #0d47a1;
+  margin-bottom: 30px;
+}
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(13, 71, 161, 0.1);
+  margin-bottom: 20px;
+  border-left: 5px solid #1976d2;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 2px solid #90caf9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #1976d2;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background: #0d47a1;
+}
+
+.review-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid #42a5f5;
+}
+.review-card h3 {
+  margin: 0 0 8px 0;
+  color: #1565c0;
+}
+.review-card small {
+  color: #757575;
+}

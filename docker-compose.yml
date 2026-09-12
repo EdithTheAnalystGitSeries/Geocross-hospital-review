@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  api:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app
+  frontend:
+    build: ./frontend
+    ports:
+      - "3002:3002"
+    depends_on:
+      - api
