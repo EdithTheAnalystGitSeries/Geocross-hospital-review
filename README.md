@@ -81,6 +81,14 @@ Example POST body:
 No `.env` needed yet. Data is stored in-memory. 
 For production, connect a database like MongoDB or Postgres.
 
+## 📸 Screenshots
+
+### 1. Homepage
+![Homepage](screenshots/01-home.png)
+
+### 2. Submit Review
+![Submit Review](screenshots/02-review.png)
+
 👨‍💻 Author
 *Michael Njideka*
 
